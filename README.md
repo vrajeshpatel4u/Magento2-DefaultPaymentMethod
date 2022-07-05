@@ -21,6 +21,6 @@ php bin/magento cache:clean
 
 Open the Magento 2 Admin Panel and navigate to:
  
- ## Stores > Settings > Configuration > V4U > Check Delivery > Default Checkout Payment Method
+ ## Stores > Settings > Configuration > V4U > Default Checkout Payment Method
 
 <img src="https://github.com/vrajeshpatel4u/Magento2-DefaultPaymentMethod/blob/main/DefaultPaymentMethod/docs/Magento2DefaultPaymentMethod.png"/>
