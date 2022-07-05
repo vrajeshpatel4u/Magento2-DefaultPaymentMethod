@@ -23,4 +23,4 @@ Open the Magento 2 Admin Panel and navigate to:
  
  ## Stores > Settings > Configuration > V4U > Check Delivery > Default Checkout Payment Method
 
-<img src="docs/Magento2DefaultPaymentMethod.png"/>
+<img src="https://github.com/vrajeshpatel4u/Magento2-DefaultPaymentMethod/blob/main/DefaultPaymentMethod/docs/Magento2DefaultPaymentMethod.png"/>
