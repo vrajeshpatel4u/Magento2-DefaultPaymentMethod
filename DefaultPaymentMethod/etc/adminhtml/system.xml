@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="v4u" translate="label" class="techflarestudio_checkout_configuration" sortOrder="10">
+            <label>Custom Checkout Configuration</label>
+        </tab>
+        <section id="defaultpaymentmethod" showInDefault="1" showInWebsite="0" showInStore="1" sortOrder="10" translate="label">
+            <label>Default Checkout Payment Method</label>
+            <tab>v4u</tab>
+            <resource>Magento_Checkout::checkout</resource>
+            <group id="payment" translate="label comment" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Payment Method</label>
+                <comment>Default Checkout Payment Method</comment>
+                <field id="default_method" translate="label" type="select" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Default Payment Method</label>
+                    <source_model>V4U\DefaultPaymentMethod\Model\Config\Source\PaymentOptions</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

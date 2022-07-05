@@ -1,0 +1,7 @@
+<?php 
+	$helper = $this->helper('V4U\DefaultPaymentMethod\Helper\Data');
+	$values = $helper->getDefaultPaymentMethod();
+?>
+<script>
+   window.valuesConfig = '<?php /* @escapeNotVerified */ echo $values; ?>'
+</script>
